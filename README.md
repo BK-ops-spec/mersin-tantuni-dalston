@@ -2,6 +2,8 @@
 
 An original website and installable ordering app for **Mersin Tantuni Dalston**, 11 Stoke Newington Road, London N16 8BH.
 
+Live preview: <https://mersin-tantuni-dalston.onrender.com>
+
 The site is a static, editorial restaurant site. The app is a separate installable PWA with the full menu, collection/delivery order requests and table reservation requests. Both are served by a small zero-dependency Python server with a SQLite database and an admin dashboard.
 
 Orders and reservations are **requests**. No payment is taken online and no card details are stored. The restaurant confirms every request by phone or email.
