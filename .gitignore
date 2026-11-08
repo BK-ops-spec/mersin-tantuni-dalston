@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+data/*.sqlite3
+data/*.sqlite3-wal
+data/*.sqlite3-shm
+data/admin_token.txt
+
+.DS_Store
+*.log
+RENDER_API_KEY
+.env
+.~lock.*

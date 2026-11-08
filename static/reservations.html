@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reserve a Table — Mersin Tantuni Dalston</title>
+  <meta name="description" content="Request a table at Mersin Tantuni Dalston on Stoke Newington Road. Open every day until midnight. Large tables and celebrations welcome.">
+  <meta name="theme-color" content="#07130e">
+  <link rel="canonical" href="https://mersintantunidalston.co.uk/reservations">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Reserve a Table — Mersin Tantuni Dalston">
+  <meta property="og:description" content="A table in Dalston. Request your table online and we will confirm shortly.">
+  <meta property="og:image" content="https://mersintantunidalston.co.uk/assets/img/lamb-kavurma.webp">
+  <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header="solid">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="Mersin Tantuni Dalston home">
+        <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <rect x=".5" y=".5" width="47" height="47" stroke="currentColor" opacity=".35"/>
+          <path d="M9 41V23a15 15 0 0 1 30 0v18" stroke="currentColor" stroke-width="1.1"/>
+          <path d="M16 41V25a8 8 0 0 1 16 0v16" stroke="currentColor" opacity=".55"/>
+          <path d="M24 17v24" stroke="currentColor" opacity=".35"/>
+        </svg>
+        <span class="brand-word"><strong>Mersin</strong><span>Tantuni · Dalston</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="/menu">Menu</a>
+        <a href="/order">Order</a>
+        <a href="/reservations" aria-current="page">Reserve</a>
+        <a href="/#story">Story</a>
+        <a href="/#visit">Visit</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn" href="/order">Order now</a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <nav aria-label="Mobile">
+      <a href="/menu">Menu <span>01</span></a>
+      <a href="/order">Order <span>02</span></a>
+      <a href="/reservations">Reserve <span>03</span></a>
+      <a href="/app/">The app <span>04</span></a>
+      <a href="/#visit">Visit <span>05</span></a>
+    </nav>
+    <a class="btn" href="/order">Start an order</a>
+    <div class="mobile-menu-foot">
+      11 Stoke Newington Road, London N16 8BH<br>
+      <a href="tel:+442079233797">020 7923 3797</a> · Open daily 12:00–00:00
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow on-dark">The dining room</span>
+        <h1>Reserve</h1>
+        <p>
+          A table for two, a family gathering or a long table of twenty.
+          Send a request and we will confirm by phone or email.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="reserve-layout" id="res-layout">
+          <aside class="reserve-aside">
+            <span class="eyebrow on-dark">Mersin · Dalston</span>
+            <h2>A table in<br>the dining room.</h2>
+            <p>
+              Walk-ins are always welcome. Reservations help us hold the right table
+              for you, especially on weekends and for larger groups.
+            </p>
+            <div class="reserve-facts">
+              <div class="reserve-fact"><span>Open</span><strong>Every day · 12:00–00:00</strong></div>
+              <div class="reserve-fact"><span>Address</span><strong>11 Stoke Newington Rd, N16 8BH</strong></div>
+              <div class="reserve-fact"><span>Phone</span><strong><a href="tel:+442079233797">020 7923 3797</a></strong></div>
+              <div class="reserve-fact"><span>Large tables</span><strong>Up to 20 online</strong></div>
+            </div>
+            <div id="res-summary" class="reserve-summary" aria-live="polite"></div>
+            <a class="btn btn-ghost" href="tel:+442079233797">Call the restaurant</a>
+          </aside>
+
+          <div class="form-card">
+            <h2>Request your table</h2>
+            <p class="form-intro">
+              This is a request, not an instant confirmation. We will reply to confirm
+              the table and any details for your visit.
+            </p>
+
+            <form id="reservation-form" novalidate>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="res-name">Name <span class="req">*</span></label>
+                  <input id="res-name" name="name" type="text" autocomplete="name" required>
+                </div>
+                <div class="field">
+                  <label for="res-phone">Phone <span class="req">*</span></label>
+                  <input id="res-phone" name="phone" type="tel" autocomplete="tel" required>
+                </div>
+                <div class="field">
+                  <label for="res-email">Email <span class="req">*</span></label>
+                  <input id="res-email" name="email" type="email" autocomplete="email" required>
+                </div>
+                <div class="field">
+                  <label for="res-party">Party size <span class="req">*</span></label>
+                  <select id="res-party" name="party" required></select>
+                </div>
+                <div class="field">
+                  <label for="res-date">Date <span class="req">*</span></label>
+                  <input id="res-date" name="date" type="date" required>
+                </div>
+                <div class="field">
+                  <label for="res-time">Time <span class="req">*</span></label>
+                  <select id="res-time" name="time" required></select>
+                </div>
+                <div class="field field-full">
+                  <label for="res-occasion">Occasion</label>
+                  <select id="res-occasion" name="occasion"></select>
+                </div>
+                <div class="field field-full">
+                  <label for="res-notes">Anything we should know?</label>
+                  <textarea id="res-notes" name="notes" maxlength="500" placeholder="Highchair, allergies, a birthday, wheelchair access…"></textarea>
+                </div>
+              </div>
+
+              <div class="form-error" id="res-error" role="alert"></div>
+
+              <div class="form-foot">
+                <button class="btn btn-block" id="res-submit" type="submit">Send table request</button>
+                <small>
+                  By sending this request you agree to be contacted about your booking.
+                  We never share your details. For same-day tables, calling is fastest.
+                </small>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="confirmation" id="res-confirmation" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="/">
+            <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <rect x=".5" y=".5" width="47" height="47" stroke="currentColor" opacity=".35"/>
+              <path d="M9 41V23a15 15 0 0 1 30 0v18" stroke="currentColor" stroke-width="1.1"/>
+              <path d="M16 41V25a8 8 0 0 1 16 0v16" stroke="currentColor" opacity=".55"/>
+              <path d="M24 17v24" stroke="currentColor" opacity=".35"/>
+            </svg>
+            <span class="brand-word"><strong>Mersin</strong><span>Tantuni · Dalston</span></span>
+          </a>
+          <p>The true home of Tantuni, now in Dalston. Charcoal, copper and the hospitality of Turkey's south-eastern coast.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="/menu">Menu</a>
+          <a href="/order">Order</a>
+          <a href="/reservations">Reserve</a>
+          <a href="/app/">The app</a>
+        </div>
+        <div class="footer-col">
+          <h4>Visit</h4>
+          <p>11 Stoke Newington Road<br>Hackney, London N16 8BH</p>
+          <a href="tel:+442079233797">020 7923 3797</a>
+          <a href="mailto:info@mersintantunidalston.co.uk">info@mersintantunidalston.co.uk</a>
+        </div>
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <p>Every day<br>12:00 – 00:00</p>
+          <p>Collection &amp; delivery<br>until 23:30</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Mersin Tantuni Dalston.</span>
+        <span class="monogram">M · T · D</span>
+        <span>Stoke Newington Road, London</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/js/site.js"></script>
+  <script type="module" src="/assets/js/reservations.js"></script>
+</body>
+</html>

@@ -1,0 +1,1427 @@
+{
+  "restaurant": {
+    "name": "Mersin Tantuni",
+    "suffix": "Dalston",
+    "tagline": "The true home of Tantuni, now in Dalston.",
+    "intro": "A Mersin street-food house on Stoke Newington Road. Charcoal, copper, hand-rolled lavash and the warm hospitality of Turkey's south-eastern coast.",
+    "address": "11 Stoke Newington Road",
+    "area": "Hackney, London",
+    "postcode": "N16 8BH",
+    "phone": "020 7923 3797",
+    "phoneIntl": "+442079233797",
+    "altPhone": "020 3893 3136",
+    "email": "info@mersintantunidalston.co.uk",
+    "hours": "Every day · 12:00 – 00:00",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11+Stoke+Newington+Road+London+N16+8BH",
+    "siteUrl": "https://mersintantunidalston.co.uk/",
+    "currency": "GBP",
+    "deliveryFee": 3.5,
+    "freeDeliveryOver": 40.0,
+    "deliveryMin": 15.0,
+    "orderLeadMinutes": 30
+  },
+  "categories": [
+    {
+      "id": "cold-starters",
+      "name": "Cold Mezze",
+      "eyebrow": "To begin",
+      "note": "All served with homemade bread.",
+      "image": "mixed-cold-mezze"
+    },
+    {
+      "id": "hot-starters",
+      "name": "Hot Mezze",
+      "eyebrow": "From the pan",
+      "note": "All served with homemade bread.",
+      "image": "hot-mixed-mezze"
+    },
+    {
+      "id": "tantuni",
+      "name": "Tantuni",
+      "eyebrow": "The house signature",
+      "note": "Traditional Turkish street food. All served with pickles.",
+      "image": "et-tek-lavas"
+    },
+    {
+      "id": "kavurma",
+      "name": "Kavurma",
+      "eyebrow": "From the iron plate",
+      "note": "Sautéed in the pan, diced lamb and chicken fried on the iron plate.",
+      "image": "lamb-kavurma"
+    },
+    {
+      "id": "mains",
+      "name": "Main Course",
+      "eyebrow": "The table",
+      "note": "Served with rice, salad and bread where stated.",
+      "image": "chicken-fillet-rice"
+    },
+    {
+      "id": "wraps",
+      "name": "Wraps",
+      "eyebrow": "Durumler",
+      "note": "All served with pickles.",
+      "image": "falafel-wrap"
+    },
+    {
+      "id": "cig-kofte",
+      "name": "Çiğ Köfte",
+      "eyebrow": "Hand-rolled",
+      "note": "Traditional homemade vegan bulgur. Served with lettuce, pickles and pomegranate sauce.",
+      "image": null
+    },
+    {
+      "id": "sides",
+      "name": "Sides",
+      "eyebrow": "Alongside",
+      "note": "Small plates and house sauces.",
+      "image": "pickles"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "eyebrow": "To finish",
+      "note": "The sweet end of a Mersin table.",
+      "image": "kunefe"
+    },
+    {
+      "id": "cold-drinks",
+      "name": "Cold Drinks",
+      "eyebrow": "Refresh",
+      "note": "Soft drinks, juices and ayran.",
+      "image": null
+    },
+    {
+      "id": "beers",
+      "name": "Beer",
+      "eyebrow": "Bar",
+      "note": "Collection only. ID required.",
+      "image": null
+    },
+    {
+      "id": "wines",
+      "name": "Wine",
+      "eyebrow": "Cellar",
+      "note": "Collection only. ID required.",
+      "image": null
+    },
+    {
+      "id": "raki",
+      "name": "Rakı",
+      "eyebrow": "The long table",
+      "note": "Collection only. ID required.",
+      "image": null
+    }
+  ],
+  "items": [
+    {
+      "id": "hummus",
+      "name": "Hummus",
+      "category": "cold-starters",
+      "price": 5.0,
+      "priceLabel": null,
+      "description": "Homemade traditional chickpea dip with a creamy texture.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "hummus",
+      "featured": true,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "tabbouleh",
+      "name": "Tabbouleh",
+      "category": "cold-starters",
+      "price": 5.5,
+      "priceLabel": null,
+      "description": "Spring onion, parsley, fresh mint, cucumber and tomato.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "tabbouleh",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "cacik",
+      "name": "Cacık",
+      "category": "cold-starters",
+      "price": 5.0,
+      "priceLabel": null,
+      "description": "Refreshing Turkish yoghurt with cucumber, garlic and herbs.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "cacik",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "mixed-olives",
+      "name": "Mixed Olives",
+      "category": "cold-starters",
+      "price": 5.0,
+      "priceLabel": null,
+      "description": "Marinated olives served with bread.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "mixed-olives",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "atom-chilies",
+      "name": "Atom Chilies",
+      "category": "cold-starters",
+      "price": 6.0,
+      "priceLabel": null,
+      "description": "Yoghurt with spicy butter sauce.",
+      "tags": [
+        "vegetarian",
+        "spicy"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "saksuka",
+      "name": "Şakşuka",
+      "category": "cold-starters",
+      "price": 5.5,
+      "priceLabel": null,
+      "description": "Aubergine in homemade tomato sauce.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "saksuka",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "ezme",
+      "name": "Ezme Salad",
+      "category": "cold-starters",
+      "price": 7.0,
+      "priceLabel": null,
+      "description": "Onion, parsley, fresh mint, tomato and mixed pepper with sumac and pomegranate sauce.",
+      "tags": [
+        "vegan",
+        "spicy"
+      ],
+      "image": "ezme",
+      "featured": true,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "coban-salad",
+      "name": "Çoban Salad",
+      "category": "cold-starters",
+      "price": 6.0,
+      "priceLabel": null,
+      "description": "Onion, parsley, tomato and cucumber served with bread.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "coban-salad",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "mixed-cold-mezze",
+      "name": "Mixed Cold Mezze Platter",
+      "category": "cold-starters",
+      "price": 14.5,
+      "priceLabel": null,
+      "description": "Hummus, cacık, şakşuka, babaganush and tabbouleh.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "mixed-cold-mezze",
+      "featured": true,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "baba-ghanoush",
+      "name": "Baba Ghanoush",
+      "category": "cold-starters",
+      "price": 5.5,
+      "priceLabel": null,
+      "description": "Smoky aubergine with yoghurt and tahini sauce.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "baba-ghanoush",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "chickpeas-salad",
+      "name": "Chickpeas Salad",
+      "category": "cold-starters",
+      "price": 6.0,
+      "priceLabel": null,
+      "description": "Chickpeas, onion, parsley, olive oil and lemon juice.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "chickpeas-salad",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "halloumi-salad",
+      "name": "Halloumi Salad",
+      "category": "cold-starters",
+      "price": 8.0,
+      "priceLabel": null,
+      "description": "Grilled halloumi with lettuce, onion, parsley and tomato.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "halloumi-salad",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "mix-mezze-for-2",
+      "name": "Mix Mezze for 2",
+      "category": "hot-starters",
+      "price": 21.0,
+      "priceLabel": null,
+      "description": "Hummus, tabbouleh, cacık, şakşuka, babaganush, halloumi, falafel and filo pastry. Hot and cold.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "mix-mezze-for-2",
+      "featured": true,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "halloumi",
+      "name": "Halloumi / Hellim",
+      "category": "hot-starters",
+      "price": 6.5,
+      "priceLabel": null,
+      "description": "Grilled halloumi cheese.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "sucuk",
+      "name": "Spicy Sausage / Sucuk",
+      "category": "hot-starters",
+      "price": 6.5,
+      "priceLabel": null,
+      "description": "Spicy Turkish sausage, pan fried.",
+      "tags": [
+        "spicy"
+      ],
+      "image": "sucuk",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "sigara-boregi",
+      "name": "Filo Pastry / Sigara Böreği",
+      "category": "hot-starters",
+      "price": 6.5,
+      "priceLabel": null,
+      "description": "Crispy filo pastry filled with melted cheese.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "sigara-boregi",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "falafel-hummus",
+      "name": "Falafel with Hummus",
+      "category": "hot-starters",
+      "price": 6.5,
+      "priceLabel": null,
+      "description": "Homemade falafel with creamy hummus.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "falafel-hummus",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "lamb-liver",
+      "name": "Lamb Liver",
+      "category": "hot-starters",
+      "price": 7.0,
+      "priceLabel": null,
+      "description": "Pan-fried lamb liver.",
+      "tags": [],
+      "image": "lamb-liver",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "chicken-liver",
+      "name": "Chicken Liver",
+      "category": "hot-starters",
+      "price": 7.0,
+      "priceLabel": null,
+      "description": "Pan-fried chicken liver.",
+      "tags": [],
+      "image": "chicken-liver",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "sucuk-halloumi",
+      "name": "Sucuk & Hellim",
+      "category": "hot-starters",
+      "price": 7.0,
+      "priceLabel": null,
+      "description": "Spicy sausage and grilled halloumi.",
+      "tags": [
+        "spicy"
+      ],
+      "image": "sucuk-halloumi",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "calamari",
+      "name": "Calamari with Tartar Sauce",
+      "category": "hot-starters",
+      "price": 9.0,
+      "priceLabel": null,
+      "description": "Calamari served with homemade tartar sauce.",
+      "tags": [],
+      "image": "calamari",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "pan-prawns",
+      "name": "Pan Prawns",
+      "category": "hot-starters",
+      "price": 8.5,
+      "priceLabel": null,
+      "description": "Pan-fried prawns.",
+      "tags": [],
+      "image": "pan-prawns",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "hot-mixed-mezze",
+      "name": "Hot Mixed Mezze Platter",
+      "category": "hot-starters",
+      "price": 16.5,
+      "priceLabel": null,
+      "description": "Hellim, sucuk, sigara böreği and homemade falafel.",
+      "tags": [
+        "spicy"
+      ],
+      "image": "hot-mixed-mezze",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "hummus-kavurma",
+      "name": "Hummus Kavurma",
+      "category": "hot-starters",
+      "price": 8.5,
+      "priceLabel": null,
+      "description": "Homemade hummus with diced lamb.",
+      "tags": [],
+      "image": "hummus-kavurma",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "et-tek-lavas",
+      "name": "Et Tek Lavaş / Lamb Diced Meat",
+      "category": "tantuni",
+      "price": 5.8,
+      "priceLabel": null,
+      "description": "Lamb diced meat with parsley, tomato, onion and homemade lavash bread.",
+      "tags": [],
+      "image": "et-tek-lavas",
+      "featured": true,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "tavuk-tek-lavas",
+      "name": "Tavuk Tek Lavaş / Chicken Diced Meat",
+      "category": "tantuni",
+      "price": 5.8,
+      "priceLabel": null,
+      "description": "Chicken diced meat with parsley, tomato, onion and homemade lavash bread.",
+      "tags": [],
+      "image": "tavuk-tek-lavas",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "mushroom-tantuni",
+      "name": "Mushroom Tantuni",
+      "category": "tantuni",
+      "price": 5.8,
+      "priceLabel": null,
+      "description": "Mushroom with parsley, tomato, onion, peppers and homemade lavash bread.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "mushroom-tantuni",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "tavuk-ekmek-arasi",
+      "name": "Tavuk Tantuni Ekmek Arası",
+      "category": "tantuni",
+      "price": 11.0,
+      "priceLabel": null,
+      "description": "Diced chicken with onion, parsley and tomato in Turkish loaf bread.",
+      "tags": [],
+      "image": "tavuk-ekmek-arasi",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "et-ekmek-arasi",
+      "name": "Et Tantuni Ekmek Arası",
+      "category": "tantuni",
+      "price": 11.0,
+      "priceLabel": null,
+      "description": "Lamb in Turkish loaf bread with onion, tomato and parsley.",
+      "tags": [],
+      "image": "et-ekmek-arasi",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "yogurtlu-et-tantuni",
+      "name": "Yogurtlu Et Tantuni",
+      "category": "tantuni",
+      "price": 16.0,
+      "priceLabel": null,
+      "description": "Two lamb tantuni served with garlicky yoghurt and spiced butter sauce.",
+      "tags": [],
+      "image": "yogurtlu-et-tantuni",
+      "featured": true,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "yogurtlu-tavuk-tantuni",
+      "name": "Yogurtlu Tavuk Tantuni",
+      "category": "tantuni",
+      "price": 16.0,
+      "priceLabel": null,
+      "description": "Two chicken tantuni served with garlicky yoghurt and spiced butter sauce.",
+      "tags": [],
+      "image": "yogurtlu-tavuk-tantuni",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "mushroom-ekmek-arasi",
+      "name": "Mushroom Tantuni Ekmek Arası",
+      "category": "tantuni",
+      "price": 11.0,
+      "priceLabel": null,
+      "description": "Mushroom with pepper, onion, parsley and tomato in Turkish loaf bread.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "mushroom-ekmek-arasi",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "yogurtlu-mushroom",
+      "name": "Yogurtlu Mushroom Tantuni",
+      "category": "tantuni",
+      "price": 16.0,
+      "priceLabel": null,
+      "description": "Two mushroom tantuni with garlicky yoghurt and spiced butter sauce.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "yogurtlu-mushroom",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "chickpeas-tantuni",
+      "name": "Chickpeas Tantuni",
+      "category": "tantuni",
+      "price": 5.8,
+      "priceLabel": null,
+      "description": "Chickpeas with onion, parsley and tomato wrapped in homemade lavash bread.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "chickpeas-tantuni",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "chickpeas-yoghurt",
+      "name": "Chickpeas Tantuni with Yoghurt",
+      "category": "tantuni",
+      "price": 16.0,
+      "priceLabel": null,
+      "description": "Two chickpea tantuni with yoghurt and butter sauce.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "chickpeas-yoghurt",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "lamb-kavurma",
+      "name": "Lamb Kavurma",
+      "category": "kavurma",
+      "price": 19.0,
+      "priceLabel": null,
+      "description": "Pan-fried tender lamb with onion, mixed peppers and garlic in homemade sauce. Served with rice and bread.",
+      "tags": [],
+      "image": "lamb-kavurma",
+      "featured": true,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "chicken-kavurma",
+      "name": "Chicken Kavurma",
+      "category": "kavurma",
+      "price": 19.0,
+      "priceLabel": null,
+      "description": "Pan-fried tender chicken with onion, mixed peppers and garlic in homemade sauce. Served with rice.",
+      "tags": [],
+      "image": "lamb-kavurma",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "falafel-hummus-main",
+      "name": "Homemade Falafel with Hummus",
+      "category": "mains",
+      "price": 16.0,
+      "priceLabel": null,
+      "description": "Crispy house falafel and ultra-creamy hummus with salad.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "falafel-hummus-main",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "chicken-fillet-rice",
+      "name": "Chicken Fillet & Rice",
+      "category": "mains",
+      "price": 18.0,
+      "priceLabel": null,
+      "description": "Grilled chicken served with rice and salad.",
+      "tags": [],
+      "image": "chicken-fillet-rice",
+      "featured": true,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "balkan-kofte",
+      "name": "Balkan Köfte & Rice",
+      "category": "mains",
+      "price": 18.0,
+      "priceLabel": null,
+      "description": "Homemade ground lamb meatballs with breadcrumbs, onion, parsley and olive oil, served with rice and salad.",
+      "tags": [],
+      "image": "balkan-kofte",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "kulbasti",
+      "name": "Kulbastı Kebabi",
+      "category": "mains",
+      "price": 18.0,
+      "priceLabel": null,
+      "description": "Grilled marinated lamb cutlets served with rice, salad and bread.",
+      "tags": [],
+      "image": "kulbasti",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "sea-bass",
+      "name": "Sea Bass Fillet & Rice / Levrek",
+      "category": "mains",
+      "price": null,
+      "priceLabel": "Market price",
+      "description": "Grilled sea bass with rice and salad.",
+      "tags": [],
+      "image": null,
+      "featured": false,
+      "orderable": false,
+      "collectionOnly": false
+    },
+    {
+      "id": "falafel-wrap",
+      "name": "Falafel Wrap",
+      "category": "wraps",
+      "price": 8.5,
+      "priceLabel": null,
+      "description": "Homemade falafel, lettuce, parsley, onion and tomato.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "falafel-wrap",
+      "featured": true,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "hellim-wrap",
+      "name": "Hellim Wrap",
+      "category": "wraps",
+      "price": 8.5,
+      "priceLabel": null,
+      "description": "Halloumi with lettuce, onion, parsley and tomato.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "hellim-wrap",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "sucuk-wrap",
+      "name": "Sucuk Wrap",
+      "category": "wraps",
+      "price": 9.0,
+      "priceLabel": null,
+      "description": "Spicy sausage with lettuce, onion, parsley and tomato.",
+      "tags": [
+        "spicy"
+      ],
+      "image": "sucuk-wrap",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "sucuk-hellim-wrap",
+      "name": "Sucuk & Hellim Wrap",
+      "category": "wraps",
+      "price": 9.5,
+      "priceLabel": null,
+      "description": "Spicy sausage and halloumi, lettuce, onion, parsley and tomato.",
+      "tags": [
+        "spicy"
+      ],
+      "image": "sucuk-hellim-wrap",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "chicken-fillet-wrap",
+      "name": "Chicken Fillet Wrap",
+      "category": "wraps",
+      "price": 9.5,
+      "priceLabel": null,
+      "description": "Grilled chicken with lettuce, onion, parsley and tomato.",
+      "tags": [],
+      "image": "chicken-fillet-wrap",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "balkan-kofte-ekmek",
+      "name": "Balkan Köfte Ekmek",
+      "category": "wraps",
+      "price": 11.5,
+      "priceLabel": null,
+      "description": "Homemade meatball in Turkish loaf bread.",
+      "tags": [],
+      "image": "balkan-kofte-ekmek",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "falloumi-wrap",
+      "name": "Falloumi Wrap",
+      "category": "wraps",
+      "price": 9.5,
+      "priceLabel": null,
+      "description": "Falafel, halloumi and hummus with parsley, onion, lettuce and tomato.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "falloumi-wrap",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "lamb-liver-wrap",
+      "name": "Lamb Liver Wrap",
+      "category": "wraps",
+      "price": 9.5,
+      "priceLabel": null,
+      "description": "Lamb liver with parsley, onion and tomato.",
+      "tags": [],
+      "image": "lamb-liver-wrap",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "chicken-liver-wrap",
+      "name": "Chicken Liver Wrap",
+      "category": "wraps",
+      "price": 9.5,
+      "priceLabel": null,
+      "description": "Chicken liver with parsley, onion and tomato.",
+      "tags": [],
+      "image": "chicken-liver-wrap",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "chickpeas-wrap",
+      "name": "Chickpeas Wrap",
+      "category": "wraps",
+      "price": 9.5,
+      "priceLabel": null,
+      "description": "Chickpeas, onion, parsley and tomato.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "chickpeas-wrap",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "cig-kofte-wrap",
+      "name": "Çiğ Köfte Wrap",
+      "category": "wraps",
+      "price": 7.0,
+      "priceLabel": null,
+      "description": "Traditional homemade vegan bulgur wrap with lettuce, pickles and pomegranate sauce.",
+      "tags": [
+        "vegan",
+        "spicy"
+      ],
+      "image": null,
+      "featured": true,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "sea-bass-ekmek",
+      "name": "Sea Bass in Turkish Loaf Bread",
+      "category": "wraps",
+      "price": null,
+      "priceLabel": "Market price",
+      "description": "Grilled sea bass with lettuce, onion, parsley and tomato in Turkish loaf bread.",
+      "tags": [],
+      "image": null,
+      "featured": false,
+      "orderable": false,
+      "collectionOnly": false
+    },
+    {
+      "id": "cig-kofte-chilli",
+      "name": "Çiğ Köfte Chilli Sauce",
+      "category": "cig-kofte",
+      "price": 1.5,
+      "priceLabel": null,
+      "description": "Homemade chilli sauce for çiğ köfte.",
+      "tags": [
+        "vegan",
+        "spicy"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "chips",
+      "name": "Chips",
+      "category": "sides",
+      "price": 3.5,
+      "priceLabel": null,
+      "description": "Golden chips.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "category": "sides",
+      "price": 3.5,
+      "priceLabel": null,
+      "description": "Seasoned rice.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "pickles",
+      "name": "Pickles",
+      "category": "sides",
+      "price": 3.5,
+      "priceLabel": null,
+      "description": "House pickles.",
+      "tags": [
+        "vegan"
+      ],
+      "image": "pickles",
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "feta",
+      "name": "Feta Cheese",
+      "category": "sides",
+      "price": 4.0,
+      "priceLabel": null,
+      "description": "Feta cheese.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "chilli-sauce",
+      "name": "Homemade Chilli Sauce",
+      "category": "sides",
+      "price": 1.5,
+      "priceLabel": null,
+      "description": "House-made chilli sauce.",
+      "tags": [
+        "vegan",
+        "spicy"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "garlic-sauce",
+      "name": "Homemade Garlic Sauce",
+      "category": "sides",
+      "price": 1.5,
+      "priceLabel": null,
+      "description": "House-made garlic sauce.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "mayo",
+      "name": "Heinz Mayonnaise",
+      "category": "sides",
+      "price": 1.0,
+      "priceLabel": null,
+      "description": "Heinz mayonnaise.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "ketchup",
+      "name": "Heinz Ketchup",
+      "category": "sides",
+      "price": 1.0,
+      "priceLabel": null,
+      "description": "Heinz ketchup.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "kunefe",
+      "name": "Künefe",
+      "category": "desserts",
+      "price": 10.0,
+      "priceLabel": null,
+      "description": "Crispy shredded pastry with melted cheese and syrup.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": "kunefe",
+      "featured": true,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "katmer",
+      "name": "Katmer",
+      "category": "desserts",
+      "price": 10.0,
+      "priceLabel": null,
+      "description": "Traditional Turkish pastry with cream.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "extra-cream",
+      "name": "Extra Cream",
+      "category": "desserts",
+      "price": 1.5,
+      "priceLabel": null,
+      "description": "A little extra cream.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "extra-ice-cream",
+      "name": "Extra Ice Cream",
+      "category": "desserts",
+      "price": 1.5,
+      "priceLabel": null,
+      "description": "A scoop of ice cream.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "still-water",
+      "name": "Still Water",
+      "category": "cold-drinks",
+      "price": 2.0,
+      "priceLabel": null,
+      "description": "Still water.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "sparkling-water",
+      "name": "Sparkling Water",
+      "category": "cold-drinks",
+      "price": 2.5,
+      "priceLabel": null,
+      "description": "Sparkling water.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "coke",
+      "name": "Coca-Cola Classic",
+      "category": "cold-drinks",
+      "price": 2.5,
+      "priceLabel": null,
+      "description": "Coca-Cola Classic.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "diet-coke",
+      "name": "Diet Coke",
+      "category": "cold-drinks",
+      "price": 2.5,
+      "priceLabel": null,
+      "description": "Diet Coke.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "coke-zero",
+      "name": "Coca-Cola Zero Sugar",
+      "category": "cold-drinks",
+      "price": 2.5,
+      "priceLabel": null,
+      "description": "Coca-Cola Zero Sugar.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "fanta",
+      "name": "Fanta Orange",
+      "category": "cold-drinks",
+      "price": 2.5,
+      "priceLabel": null,
+      "description": "Fanta Orange.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "ayran-250",
+      "name": "Ayran 250ml",
+      "category": "cold-drinks",
+      "price": 2.5,
+      "priceLabel": null,
+      "description": "Traditional yoghurt drink.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "salgam",
+      "name": "Şalgam",
+      "category": "cold-drinks",
+      "price": 2.0,
+      "priceLabel": null,
+      "description": "Traditional turnip juice.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "apple-juice",
+      "name": "Apple Juice",
+      "category": "cold-drinks",
+      "price": 2.0,
+      "priceLabel": null,
+      "description": "Apple juice.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "orange-juice",
+      "name": "Orange Juice",
+      "category": "cold-drinks",
+      "price": 2.0,
+      "priceLabel": null,
+      "description": "Orange juice.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "ribena-strawberry",
+      "name": "Ribena Strawberry",
+      "category": "cold-drinks",
+      "price": 2.0,
+      "priceLabel": null,
+      "description": "Ribena Strawberry.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "ribena-blackcurrant",
+      "name": "Ribena Blackcurrant",
+      "category": "cold-drinks",
+      "price": 2.0,
+      "priceLabel": null,
+      "description": "Ribena Blackcurrant.",
+      "tags": [
+        "vegan"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "ayran-homemade-500",
+      "name": "Ayran (Homemade) 500ml",
+      "category": "cold-drinks",
+      "price": 4.5,
+      "priceLabel": null,
+      "description": "Homemade ayran, 500ml.",
+      "tags": [
+        "vegetarian"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": false
+    },
+    {
+      "id": "peroni",
+      "name": "Peroni 330ml",
+      "category": "beers",
+      "price": 4.0,
+      "priceLabel": null,
+      "description": "Peroni Nastro Azzurro, 330ml.",
+      "tags": [
+        "age"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": true
+    },
+    {
+      "id": "corona",
+      "name": "Corona 330ml",
+      "category": "beers",
+      "price": 4.0,
+      "priceLabel": null,
+      "description": "Corona Extra, 330ml.",
+      "tags": [
+        "age"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": true
+    },
+    {
+      "id": "efes-draft",
+      "name": "Efes Draft 500ml",
+      "category": "beers",
+      "price": 5.5,
+      "priceLabel": null,
+      "description": "Efes draft beer, 500ml.",
+      "tags": [
+        "age"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": true
+    },
+    {
+      "id": "kopparberg",
+      "name": "Kopparberg Cider 500ml",
+      "category": "beers",
+      "price": 5.5,
+      "priceLabel": null,
+      "description": "Kopparberg fruit cider, 500ml.",
+      "tags": [
+        "age"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": true
+    },
+    {
+      "id": "alcohol-free-beer",
+      "name": "Alcohol Free Beer",
+      "category": "beers",
+      "price": 3.5,
+      "priceLabel": null,
+      "description": "Alcohol-free beer.",
+      "tags": [],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": true
+    },
+    {
+      "id": "doluca-red",
+      "name": "Doluca Red",
+      "category": "wines",
+      "price": 19.5,
+      "priceLabel": null,
+      "description": "Doluca red wine.",
+      "tags": [
+        "age"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": true
+    },
+    {
+      "id": "doluca-white",
+      "name": "Doluca White",
+      "category": "wines",
+      "price": 19.5,
+      "priceLabel": null,
+      "description": "Doluca white wine.",
+      "tags": [
+        "age"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": true
+    },
+    {
+      "id": "ephesus-rose",
+      "name": "Ephesus Rosé",
+      "category": "wines",
+      "price": 19.5,
+      "priceLabel": null,
+      "description": "Ephesus rosé wine.",
+      "tags": [
+        "age"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": true
+    },
+    {
+      "id": "yeni-raki",
+      "name": "Yeni Rakı",
+      "category": "raki",
+      "price": 34.5,
+      "priceLabel": null,
+      "description": "Yeni Rakı.",
+      "tags": [
+        "age"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": true
+    },
+    {
+      "id": "beylerbeyi-gobek",
+      "name": "Beylerbeyi Göbek",
+      "category": "raki",
+      "price": 59.5,
+      "priceLabel": null,
+      "description": "Beylerbeyi Göbek Rakı.",
+      "tags": [
+        "age"
+      ],
+      "image": null,
+      "featured": false,
+      "orderable": true,
+      "collectionOnly": true
+    }
+  ]
+}

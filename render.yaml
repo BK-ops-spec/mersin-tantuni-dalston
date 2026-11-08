@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: mersin-tantuni-dalston
+    runtime: python
+    plan: free
+    region: frankfurt
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python3 run.py
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.14.10"
+      - key: MT_HOST
+        value: "0.0.0.0"
+      - key: MT_DATA_DIR
+        value: /tmp/mersin-data
+      - key: MT_ADMIN_TOKEN
+        generateValue: true

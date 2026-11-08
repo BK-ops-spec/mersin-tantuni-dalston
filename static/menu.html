@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Menu — Mersin Tantuni Dalston</title>
+  <meta name="description" content="The full Mersin Tantuni Dalston menu: cold and hot mezze, tantuni, kavurma, wraps, mains, sides, desserts, drinks and the bar. Order collection or delivery.">
+  <meta name="theme-color" content="#07130e">
+  <link rel="canonical" href="https://mersintantunidalston.co.uk/menu">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:title" content="The Menu — Mersin Tantuni Dalston">
+  <meta property="og:description" content="Mezze, tantuni, kavurma, wraps, künefe and more. The full Mersin menu.">
+  <meta property="og:image" content="https://mersintantunidalston.co.uk/assets/img/et-tek-lavas.webp">
+  <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header="solid">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="Mersin Tantuni Dalston home">
+        <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <rect x=".5" y=".5" width="47" height="47" stroke="currentColor" opacity=".35"/>
+          <path d="M9 41V23a15 15 0 0 1 30 0v18" stroke="currentColor" stroke-width="1.1"/>
+          <path d="M16 41V25a8 8 0 0 1 16 0v16" stroke="currentColor" opacity=".55"/>
+          <path d="M24 17v24" stroke="currentColor" opacity=".35"/>
+        </svg>
+        <span class="brand-word"><strong>Mersin</strong><span>Tantuni · Dalston</span></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="/menu" aria-current="page">Menu</a>
+        <a href="/order">Order</a>
+        <a href="/reservations">Reserve</a>
+        <a href="/#story">Story</a>
+        <a href="/#visit">Visit</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn" href="/order">Order now</a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <nav aria-label="Mobile">
+      <a href="/menu">Menu <span>01</span></a>
+      <a href="/order">Order <span>02</span></a>
+      <a href="/reservations">Reserve <span>03</span></a>
+      <a href="/app/">The app <span>04</span></a>
+      <a href="/#visit">Visit <span>05</span></a>
+    </nav>
+    <a class="btn" href="/order">Start an order</a>
+    <div class="mobile-menu-foot">
+      11 Stoke Newington Road, London N16 8BH<br>
+      <a href="tel:+442079233797">020 7923 3797</a> · Open daily 12:00–00:00
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow on-dark">The full table</span>
+        <h1>Menu</h1>
+        <p>
+          Cold mezze, hot mezze, tantuni, kavurma, wraps and the sweet finish.
+          Everything is made to order. Add dishes to your order as you go.
+        </p>
+        <div class="hero-facts">
+          <div class="hero-fact"><strong>90</strong><span>Dishes</span></div>
+          <div class="hero-fact"><strong>13</strong><span>Sections</span></div>
+          <div class="hero-fact"><strong>V &amp; VG</strong><span>Marked clearly</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="menu-toolbar">
+      <div class="container menu-toolbar-inner">
+        <div class="menu-cats" id="menu-cats" aria-label="Menu sections"></div>
+        <div class="menu-tools">
+          <label class="search-field">
+            <span class="sr-only">Search the menu</span>
+            <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.3"/><path d="m13.5 13.5 4 4" stroke="currentColor" stroke-width="1.3"/></svg>
+            <input id="menu-search" type="search" placeholder="Search dishes" autocomplete="off">
+          </label>
+          <button class="filter-chip active" type="button" data-filter="all">All</button>
+          <button class="filter-chip" type="button" data-filter="vegan">Vegan</button>
+          <button class="filter-chip" type="button" data-filter="vegetarian">Veg</button>
+          <button class="filter-chip" type="button" data-filter="spicy">Spicy</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="menu-start">
+      <div id="menu-sections" aria-live="polite">
+        <div class="admin-empty" style="margin:60px 0">Loading the menu…</div>
+      </div>
+
+      <div class="menu-note">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.3"/><path d="M12 10v6M12 7.2v.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <p>
+          <strong>Allergies and notes.</strong> Please tell us about allergies when you order.
+          Some dishes contain gluten, dairy, sesame, nuts and sulphites. Alcohol is collection
+          only and ID is required. Market-price dishes are confirmed when you order.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <div class="cart-bar" id="cart-bar" aria-live="polite">
+    <div class="cart-bar-count">
+      <span class="count" id="cart-count">0</span>
+      <div>
+        <strong id="cart-label">Your order</strong>
+        <span id="cart-total">£0.00</span>
+      </div>
+    </div>
+    <a class="btn" href="/order">Review order</a>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="/">
+            <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <rect x=".5" y=".5" width="47" height="47" stroke="currentColor" opacity=".35"/>
+              <path d="M9 41V23a15 15 0 0 1 30 0v18" stroke="currentColor" stroke-width="1.1"/>
+              <path d="M16 41V25a8 8 0 0 1 16 0v16" stroke="currentColor" opacity=".55"/>
+              <path d="M24 17v24" stroke="currentColor" opacity=".35"/>
+            </svg>
+            <span class="brand-word"><strong>Mersin</strong><span>Tantuni · Dalston</span></span>
+          </a>
+          <p>The true home of Tantuni, now in Dalston. Charcoal, copper and the hospitality of Turkey's south-eastern coast.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="/menu">Menu</a>
+          <a href="/order">Order</a>
+          <a href="/reservations">Reserve</a>
+          <a href="/app/">The app</a>
+        </div>
+        <div class="footer-col">
+          <h4>Visit</h4>
+          <p>11 Stoke Newington Road<br>Hackney, London N16 8BH</p>
+          <a href="tel:+442079233797">020 7923 3797</a>
+          <a href="mailto:info@mersintantunidalston.co.uk">info@mersintantunidalston.co.uk</a>
+        </div>
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <p>Every day<br>12:00 – 00:00</p>
+          <p>Collection &amp; delivery<br>until 23:30</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Mersin Tantuni Dalston.</span>
+        <span class="monogram">M · T · D</span>
+        <span>Stoke Newington Road, London</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/js/site.js"></script>
+  <script type="module" src="/assets/js/menu.js"></script>
+</body>
+</html>
